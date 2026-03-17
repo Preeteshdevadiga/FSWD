@@ -1,0 +1,41 @@
+what is API ?
+API - application programing interface
+it allows frontend(react) to talk to backend/server.
+
+ex :
+instagram app  - calls api->gets post from server->display UI
+API integration using fetch ?
+Fetch API is a build in js function used to make http server.
+
+it allows your frontend(react app) to:
+1. gat data(GET)
+2. send data(POST)
+3. update data(PUT)
+4. delete data(DELETE)
+
+ex:
+* you - React app
+* calling Restaurent - API server
+* asking for food - response
+
+how it work Internally :
+1. browser send http request
+2. server processes request
+3. server sends JSON () converts it5. data stored in state.
+
+JSON - java script object notation
+
+what is AXIOS ?
+it is third party http library used to make api request.
+
+install it :
+npm install AXIOS
+why it is popular :
+* automatically converts into JSON
+* better for error handling 
+* it supports request cancellation 
+* clear syntax
+
+when to use :
+fetch->small project
+axios->larger production app

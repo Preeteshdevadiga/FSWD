@@ -1,0 +1,24 @@
+what is lifecycle?
+every component goes through 3 phases:
+1.mounting(component created)
+2.updating(state/props change)
+3.unmounting(component removed)
+
+we use : useeffect()
+
+use effects hooks:
+1.API calls
+2.timers.
+3.Subscriptions
+4.logging
+5.cleanup
+
+syntax:
+useeffect(()=>{
+    //code
+    return{}=>{
+        //cleanup code
+    }
+},   [dependency]);
+
+    

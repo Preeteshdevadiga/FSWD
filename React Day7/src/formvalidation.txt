@@ -1,0 +1,25 @@
+ex: 
+instagram - login form
+amazon - checkout form
+linkedin - job application
+medium - blog publishing
+
+Forms in react :
+A form collects user data.
+
+html: 
+form
+i/p type = 'text' placeholder='enter name'
+button submit
+/form
+
+controlled component:
+  A controlled component is a input element whose value is controlled by react store
+
+  flow:
+  user types input-> onchange event files->setstates update value->react re-renders->input value
+
+why validation:
+to ensure the data is correct.
+
+

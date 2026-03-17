@@ -1,0 +1,32 @@
+                                              /*element selector-tags->elements*/
+/* h1{
+    color: blue;
+} */
+                                           /*class selector - reuseable(.)*/
+/* .highlight{
+    background-color: aquamarine;
+    color: brown;
+} */
+                                              /*id selector - unique(#)*/
+/* #main{
+    color:violet;
+} */
+                                              /*group selector*/
+/* h1,p{
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+} */
+                                                /*colors*/
+/* .color{
+    color: chartreuse;
+} */
+                                                    /*fonts*/
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+} */
+                                                  /*text aligment*/
+/* h1{
+    text-align: center;
+} */

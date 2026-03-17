@@ -1,0 +1,63 @@
+Assignment 1 (09/02/2026)
+Assignment Name: Internet Explorer
+
+Description: Client-Server Architecture and What Happens When You Open a Website
+
+1) What is Client-Server Architecture?
+
+The web works on a Client-Server Model.
+Client : User device (Mobile, Laptop, Computer)
+Server : Powerful computer storing websites
+Internet: Medium connecting client and server
+Request : Asking for data
+Response: Getting data
+Real-Time Example:
+Customer -> Client (Browser)
+Waiter -> Internet
+Kitchen -> Server
+Food -> Website
+
+2) Steps When You Open a Website:
+
+Step 1: You type URL (example: https://amazon.com)
+Step 2: Browser sends request to server through internet.
+Step 3: Server responds with files:
+- HTML (Structure)
+- CSS (Design)
+- JavaScript (Functionality)
+- JSON (Data)
+Step 4: Browser renders and displays the webpage.
+Client-Server Architecture Diagram:
++------------------+
+| CLIENT |
+| (Browser/User) |
++------------------+
+ |
+ | 1. Request
+ v
+======================
+ INTERNET
+======================
+ |
+ v
++------------------+
+| SERVER |
+| (Stores Website) |
++------------------+
+ |
+ | 2. Response (HTML, CSS, JS)
+ v
+======================
+ INTERNET
+======================
+ |
+ v
++------------------+
+| BROWSER |
+| Displays Page |
++------------------+
+
+Conclusion:
+In client-server architecture, the client sends a request,
+the server processes it and sends a response,
+and the browser renders the website for the user.

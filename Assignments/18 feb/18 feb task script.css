@@ -1,0 +1,22 @@
+.form-container {
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    display: block;
+}
+.error-text {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    display: block;
+}
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+}

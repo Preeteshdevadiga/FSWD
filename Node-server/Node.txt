@@ -1,0 +1,12 @@
+Node JS ?
+node js is a JS runtime environment used to run js outside the browser.
+
+Why node.js is powerfull ?
+1.non blocking Architecture
+traditional server :req1->finish->req2->finish
+nodejs : req1,req2,req3 all handled simultaneously(event driven Architecture)
+
+what is npm ?
+npm - node package manager
+it helps - install libraries, manage dependencies, reuse open source code
+

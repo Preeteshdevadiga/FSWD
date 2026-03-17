@@ -1,0 +1,56 @@
+.box{
+    background: rgb(73, 8, 8);
+    color: azure ;
+    padding: 40px;
+    margin: 10px;
+}
+
+/*basic flex
+.container{
+    display: flex;
+}
+*/
+
+/*flex direction row, column, row-reverse, column-reverse
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}*/
+
+/*justify-content: flex start,flex-end,center,space around,space evenly,space between
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+/*align item - stretch ,center,flex-start,flex-end
+.container{
+    height: 410px;
+    display: flex;
+    align-items: stretch;
+}*/
+
+/*Gap
+.container{
+    display: flex;
+    gap: 20px;
+}*/
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Responsive website
+*{
+    max-width: 1200px;
+}
+@media(max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+} */
