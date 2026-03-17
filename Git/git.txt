@@ -1,0 +1,31 @@
+
+1️⃣ Open terminal and go to your project folder
+👉
+cd your-project-folder
+
+2️⃣ Check the status of files
+👉
+git status
+
+3️⃣ Add the updated file to staging
+👉 (for single file)
+git add filename
+
+👉 (for all files)
+git add .
+
+4️⃣ Commit the changes with a message
+👉
+git commit -m "Updated file"
+
+5️⃣ Push the changes to GitHub
+👉
+git push origin main
+
+✅ Done! Your file is now updated in the repository.
+
+💡 Shortcut (quick method):
+👉
+git add .
+git commit -m "update"
+git push
