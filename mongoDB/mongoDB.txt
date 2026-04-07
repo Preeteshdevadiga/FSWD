@@ -1,0 +1,98 @@
+what is database ?
+A database is simply a place where data is stored, organized, and managed so you can easily access, update, or delete it later.
+
+Types ---
+
+1. Relational Databases (SQL)
+
+👉 Data is stored in tables (rows & columns)
+
+✅ Features:
+Fixed structure (schema)
+Uses SQL queries
+Relationships between tables
+📌 Examples:
+MySQL
+PostgreSQL
+Oracle Database
+
+2. NoSQL Databases
+
+👉 Data stored in flexible formats (JSON, key-value, etc.)
+
+✅ Features:
+No fixed schema
+Scalable and fast
+Good for modern apps
+📌 Example:
+MongoDB
+
+3. Key-Value Databases
+
+👉 Data stored as key → value pairs
+
+✅ Features:
+Very fast
+Simple structure
+📌 Examples:
+Redis
+Amazon DynamoDB
+🧠 Example:
+key: user1 → value: "Preetesh"
+
+4. Document Databases
+
+👉 Store data as documents (JSON-like)
+
+📌 Example:
+MongoDB
+
+👉 (MongoDB is both NoSQL + Document type)
+
+4. Document Databases
+
+👉 Store data as documents (JSON-like)
+
+📌 Example:
+MongoDB
+
+👉 (MongoDB is both NoSQL + Document type)
+
+🧩 5. Column-Based Databases
+
+👉 Store data in columns instead of rows
+
+✅ Used for:
+Big data analytics
+📌 Examples:
+Apache Cassandra
+HBase
+
+🌐 6. Graph Databases
+
+👉 Data stored as nodes and relationships
+
+✅ Used for:
+Social networks
+Recommendation systems
+📌 Example:
+Neo4j
+
+⚡ 7. In-Memory Databases
+
+👉 Data stored in RAM (very fast)
+
+📌 Example:
+Redis
+
+----------SQL V/S NOSQL-----------
+
+| Feature        | SQL 🧱         | NoSQL 📄         |
+| -------------- | -------------- | ---------------- |
+| Structure      | Fixed (schema) | Flexible         |
+| Data Format    | Tables         | JSON / Key-Value |
+| Scalability    | Vertical ↑     | Horizontal →     |
+| Speed          | Moderate       | Fast             |
+| Flexibility    | Low            | High             |
+| Relationships  | Strong (joins) | Weak / embedded  |
+| Query Language | SQL            | No standard      |
